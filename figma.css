@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+
+    height: 100vh;
+}
+
+.pagina {
+    width: 1000px;
+    padding: 65px auto 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+#logo {
+    font-family: "Inter", sans-serif;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #1f1534;
+}
+li a {
+    opacity: 0.5; /*opacidade*/
+}
+li a:hover {
+    font-weight: bold;
+    opacity: 1; /*ao colocar 1 o "bold" se mantém forte e nao fica fraco por causa do 0.5*/
+}
+
+ul, h1 {
+    font-family: "Mulish", sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 49px;
+    line-height: 56px;
+    color: #000;
+
+    font-weight: normal;
+}
+h1 span {
+    color: #89c5cc;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7d7987;
+
+    padding: 40px 0;
+}
+
+button {
+    font-family: "DM Sans", sans-serif;
+    text-transform: uppercase;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    background: #69b99d;
+    border: 0;
+    border-radius: 4px;
+    padding: 14px 32px 15px;
+    cursor: pointer;
+}
+button:hover {
+    background: burlywood /*colocar um verde mais escuro*/
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+    margin-top: 82px;
+}
+footer a {
+    font-weight: bold;
+}
+
+#bolinhas {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
